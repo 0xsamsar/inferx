@@ -1,2 +1,2 @@
 # inferx
-Trustless AI Inferencing Oracle
+Trustless AI Inferencing Node
