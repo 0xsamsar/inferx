@@ -1,2 +1,2 @@
-# inferx
-Trustless AI Inferencing Node
+# InferX
+AI Inferencing Engine
