@@ -1,2 +1,2 @@
-# inferx
-Trustless AI Inferencing Oracle
+# InferX
+AI Inferencing Engine
