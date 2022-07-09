@@ -22,10 +22,11 @@ contract InferxClient {
   function buildInferxRequest(
     bytes32 modelId,
     address callbackAddr,
-    bytes4 callbackFunctionSignature
+    bytes4 callbackFunctionSignature,
+    bytes calldata data
   ) external pure returns (Inferx.Request memory) {
     Inferx.Request memory req;
-    return req.initialize(modelId, callbackAddr, callbackFunctionSignature);
+    return req.initialize(modelId, callbackAddr, callbackFunctionSignature, data);
   }
 
   /**

@@ -18,17 +18,19 @@ library Inferx {
    * @param modelId The Model Specification ID
    * @param callbackAddr The callback address
    * @param callbackFunc The callback function signature
-   * @return The initialized request
+   * @param data The encoded query
    */
   function initialize(
     Request memory self,
     bytes32 modelId,
     address callbackAddr,
-    bytes4 callbackFunc
+    bytes4 callbackFunc,
+    bytes calldata data
   ) internal pure returns (Request memory) {
     self.modelId = modelId;
     self.callbackAddress = callbackAddr;
     self.callbackFunctionId = callbackFunc;
+    self.data = data;
     return self;
   }
 }
