@@ -1,4 +1,4 @@
-# InferX: AI Inferencing Oracle [Experimental]
+# InferX: AI Inferencing Oracle [NON-ACTIVE: Will revisit in the future]
 Exploring new smart contract architectures & use cases enabled by bringing AI/ML/DL inference on-chain (via hybrid smart contracts). 
 
 ## Motivation
